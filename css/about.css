@@ -1,0 +1,96 @@
+.about-container {
+	margin-top: 5.5rem;
+	font-size:13px;
+	text-align: center;
+}
+
+#about-title {
+	color: #999898;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	font-weight: 700;
+	font-size: .55rem;
+	margin-bottom: 20px;
+}
+
+.about-description {
+	color: #999898;
+	font-size: 1rem;
+	width: 340px;
+	margin: auto;
+	font-family: 'Gt America';
+}
+
+.directors-container {
+	margin-top: 64px;
+}
+
+#directors-title {
+	color: #999898;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	font-weight: 700;
+	font-size:.55rem;
+}
+
+.directors-row {
+	margin-top: 1.5rem;
+	font-size: 1rem;
+	font-family: 'Gt America Thin';
+}
+
+#eric {
+	margin-right:6.25rem;
+	display: inline-block;
+	color: #999898;
+	font-family: 'Gt America';
+}
+
+#edwin {
+	display: inline-block;
+	margin-right: 2rem;
+	color: #999898;
+	font-family: 'Gt America';
+}
+
+
+
+@media (min-width:768px) { 
+
+.about-container {
+	margin-top: 5.5rem;
+	width: 90%;
+	text-align: center;
+}
+
+
+#about-title {
+	text-align: center;
+	margin-top: 50px;
+	color: #999898;
+	font-weight: 700;
+}
+
+.about-description {
+	text-align: center;
+	color: #999898;
+	margin-top: 25px;
+	width: 400px;
+}
+
+
+#directors-title {
+	color: #999898;
+	font-weight: 700;
+}
+}
+
+
+
+

@@ -1,0 +1,140 @@
+h3 {
+	text-transform: uppercase;
+	margin: auto;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+.title {
+	margin-top: 40px;
+}
+
+.row {
+	height: 123px;
+	color: white;
+}
+
+.col-sm-12 {
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+ 	height: 100%;
+}
+
+.one {
+	background: url(../otomo_photos/video.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+	margin-top: .2px;
+}
+
+.two {
+	background: url(../otomo_photos/audio.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+}
+
+.three {
+	background: url(../otomo_photos/meta.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+}
+
+.four {
+	background: url(../otomo_photos/vr.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center right;
+	
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:900px) {
+	.col-sm-12 {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+ 	height: 100vh;
+ 	background-color: black;
+}
+
+.one {
+	background: url(../otomo_photos/video.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	height: 80%;
+}
+
+
+.two {
+	background: url(../otomo_photos/audio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	height: 80%;
+}
+
+.three {
+	background: url(../otomo_photos/meta.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	height: 80%;
+}
+
+.four {
+	background: url(../otomo_photos/vr.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	height: 80%;
+}
+
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.row h3 {
+visibility:hidden;
+}
+
+.row:hover h3 {
+visibility:visible;
+}
+
+.headers {
+	margin-top: 13rem;
+}
+
+}
+
+
+

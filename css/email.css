@@ -1,0 +1,13 @@
+.response,
+.response-p {
+	text-align: center;
+	font-family: 'Druk Wide Web';
+  src: url('DrukWide-Bold-Web.eot');
+  src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+  url('DrukWide-Bold-Web.woff2') format('woff2'),
+  url('DrukWide-Bold-Web.woff') format('woff');
+}
+
+.response {
+	margin-top: 10%;
+}

@@ -1,0 +1,225 @@
+body {
+	background-color: #e5e5e4;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.main-header {
+	display:none;
+}
+
+.otomo-logo {
+	width: 200px;
+	margin-left: 22px;
+	margin-top: 14px;
+	padding-bottom: 16px;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar-nav {
+	text-align: center;
+	padding-top: 70px;
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+}
+
+
+.nav-item {
+	padding-top: 63px;
+
+}
+
+
+a {
+	color: white;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	font-size: 15px;
+	letter-spacing: 1.3px; 
+	font-style: normal;
+	font-stretch: normal;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar-toggler {
+	margin-top: 16px;
+	height: 37px;
+	margin-bottom: 5%;
+	margin-right: 19px;
+	padding-bottom: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: none;
+}
+
+.navbar-light span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  color: white !important;
+}
+
+/*--footer--*/
+.main-footer {
+	position: fixed;
+	color:white;
+	background-color:black;
+	text-transform: uppercase;
+	height: 70px;
+	text-align: center;
+	right:0;
+	bottom: 0;
+	left:0;
+	padding: 1rem;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+.footer-inner {
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	padding-top: 15px;
+	font-size: 7px;
+	letter-spacing: 1.3px;
+}
+
+
+
+@media (min-width: 769px) {
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+/*--header--*/
+.main-header {
+	height: 70px;
+	width: 100%;
+	border: 1px solid black;
+	background-color:black;
+	position: relative;
+
+}
+
+.nav-items  {
+	list-style-type: none;
+	padding-top: 25px;
+	padding-right: 15px;
+	margin-right:12px;
+	margin-top:24px;
+}
+
+
+.nav-items a {
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	text-decoration: none;
+	color: white;
+	font-size: 7px;
+	letter-spacing: 1.3px;
+	position: relative;
+}
+
+.nav-items a:hover::after {
+	text-decoration: none;
+	content: " ";
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	padding-bottom: 15px;
+	border-bottom: 1px solid white;
+}
+
+ .otomo-logo {
+	width: 200px;
+	margin-left: 22px;
+	padding-top: 30px;
+}
+
+.main-nav {
+	text-transform: uppercase;
+	
+}
+
+.main-nav a {
+	margin-top: -28px;
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+
+
+
+
+
+/*--footer--*/
+.main-footer {
+	position: fixed;
+	color:white;
+	background-color:black;
+	text-transform: uppercase;
+	height: 70px;
+	text-align: center;
+	right:0;
+	bottom: 0;
+	left:0;
+	padding: 1rem;
+	overflow: hidden;
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+.footer-inner {
+	font-family: 'Druk Wide Web';
+	src: url('DrukWide-Bold-Web.eot');
+	src: url('DrukWide-Bold-Web.eot?#iefix') format('embedded-opentype'),
+	url('DrukWide-Bold-Web.woff2') format('woff2'),
+	url('DrukWide-Bold-Web.woff') format('woff');
+	padding-top: 15px;
+	font-size: 7px;
+	letter-spacing: 1.3px;
+}
+
+.navbar {
+	display: none;
+}
+
+
+
+}
